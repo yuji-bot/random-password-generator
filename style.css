@@ -32,6 +32,13 @@ button{
     width: 80%;
     color: black;
     border-radius: 1rem;
+    background: white;
+    border: none;
+    transition: 1s;
+}
+button:hover{
+    background: green;
+    color: white;
 }
 input{
     height: 2rem;
@@ -39,4 +46,6 @@ input{
     border: none;
     border-radius: 1rem;
     outline: none;
+    padding-left: 10px;
+    color: black;
 }
